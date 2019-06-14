@@ -24,7 +24,7 @@ def remove_strawberry(contacts)
       data.each do |key, value|
         # Now we are looking at Ice Cream Flavors
         while key == ":favorite_ice_cream_flavors"
-          key.delete("strawberry")
+          value.delete("strawberry")
         end
       end
     end
