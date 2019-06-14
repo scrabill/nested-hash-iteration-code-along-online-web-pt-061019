@@ -16,6 +16,7 @@ require 'pry'
 
 def remove_strawberry(contacts)
   contacts.each do |person, data|
+    binding.pry
 
     # We are on the person level now
 
