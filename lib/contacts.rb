@@ -23,7 +23,7 @@ def remove_strawberry(contacts)
         binding.pry
         # Now we are looking at Ice Cream Flavors
         if key == :favorite_ice_cream_flavors
-          value.delete("strawberry")
+          binding.pry
         end
       end
     end
