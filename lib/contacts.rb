@@ -21,7 +21,7 @@ def remove_strawberry(contacts)
 
     if person == "Freddy Mercury"
       # Now we are looking at Freddy's info
-      data.each do |attribute, value|
+      data.each do |key, value|
 
         # Now we are looking at Ice Cream Flavors
         while attribute == :favorite_ice_cream_flavors
