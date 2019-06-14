@@ -20,10 +20,9 @@ def remove_strawberry(contacts)
     if person == "Freddy Mercury"
       # Now we are looking at Freddy's info
       data.each do |key, value|
-        binding.pry
         # Now we are looking at Ice Cream Flavors
         if key == :favorite_ice_cream_flavors
-          binding.pry
+          value.delete_if {|ice_cream|}
         end
       end
     end
